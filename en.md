@@ -1,8 +1,11 @@
 # Debating Society of the Uni Konstanz
 
+
+[\[de\]](de) \[en\] 
+
 ## Facebook
 
-This site is in being built. Why not visit our [Facebook page](https://www.facebook.com/KonstanzerKontroverse/)?
+This site is currently being built. Why not visit our [Facebook page](https://www.facebook.com/KonstanzerKontroverse/)?
 
 ## Mail
 
