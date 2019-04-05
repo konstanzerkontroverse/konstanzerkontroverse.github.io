@@ -4,7 +4,7 @@
 
 ## Facebook
 
-Diese Seite ist im Aufbau. Besuche uns doch auf unserer [Facebook-Seite](https://www.facebook.com/KonstanzerKontroverse/). 
+Diese Seite ist im Aufbau. Besuch uns doch auf unserer [Facebook-Seite](https://www.facebook.com/KonstanzerKontroverse/). 
 
 ## Mail
 
