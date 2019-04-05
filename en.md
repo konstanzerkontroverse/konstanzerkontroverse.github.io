@@ -1,15 +1,6 @@
 # Debating Society of the Uni Konstanz
 
-
 [\[de\]](/) \[en\] 
-
-## Facebook
-
-This site is currently being built. Why not visit our [Facebook page](https://www.facebook.com/KonstanzerKontroverse/)?
-
-## Mail
-
-Or just write to [mail@koko.team](mailto:mail@koko.team)!
 
 ## Dates
 
@@ -32,3 +23,11 @@ In the summer semester 2019, our first meeting will be held at April 17, 18:45 a
 * [Recent motions](http://hellomotions.com/) and [top motions](http://archive.idebate.org/view/top_100_debates)
 
 * [English Debating](http://schoolsdebate.de/) at High Schools in Germany
+
+## Facebook
+
+This site is currently being built. Why not visit our [Facebook page](https://www.facebook.com/KonstanzerKontroverse/)?
+
+## Mail
+
+Or just write to [mail@koko.team](mailto:mail@koko.team)!
