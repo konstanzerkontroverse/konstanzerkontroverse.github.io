@@ -16,6 +16,9 @@ header a {
     color: black;
     text-decoration: none;
 }
+#contact svg {
+    width: 50px;
+}
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
