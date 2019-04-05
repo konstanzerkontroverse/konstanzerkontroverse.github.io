@@ -1,7 +1,7 @@
 # Debating Society of the Uni Konstanz
 
 
-[\[de\]](de) \[en\] 
+[\[de\]](/) \[en\] 
 
 ## Facebook
 
@@ -17,7 +17,7 @@ In the summer semester 2019, our first meeting will be held at April 17, 18:45 a
 
 ## What is Debating? (German)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PT7QbzLYGBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/PT7QbzLYGBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Hyperlinks
 
