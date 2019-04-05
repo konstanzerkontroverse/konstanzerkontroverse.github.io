@@ -1,14 +1,14 @@
+<center>
+
+![Koko](koko.png)
+
+# Konstanzer Kontroverse
+
 # Debattierclub der Uni Konstanz
 
 \[de\] [\[en\]](en)
 
-## Facebook
-
-Diese Seite ist im Aufbau. Besuch uns doch auf unserer [Facebook-Seite](https://www.facebook.com/KonstanzerKontroverse/). 
-
-## Mail
-
-Oder schreibe uns eine Mail an [mail@koko.team](mailto:mail@koko.team)!
+</center>
 
 ## Termine
 
@@ -16,7 +16,7 @@ Im Sommersemester 2019 treffen wir uns zum ersten Mal am 17. April um 18:45 bei 
 
 ## Was ist Debattieren? 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PT7QbzLYGBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/PT7QbzLYGBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Links
 
@@ -31,3 +31,11 @@ Im Sommersemester 2019 treffen wir uns zum ersten Mal am 17. April um 18:45 bei 
 * [Aktuelle Themen](http://hellomotions.com/) und [Top-Themen](http://archive.idebate.org/view/top_100_debates)
 
 * [English Debating](http://schoolsdebate.de/) und [Jugend Debattiert](https://www.jugend-debattiert.de/) an Schulen
+
+## Facebook
+
+Diese Seite ist im Aufbau. Besuch uns doch auf unserer [Facebook-Seite](https://www.facebook.com/KonstanzerKontroverse/). 
+
+## Mail
+
+Oder schreib uns eine Mail an [mail@koko.team](mailto:mail@koko.team)!
