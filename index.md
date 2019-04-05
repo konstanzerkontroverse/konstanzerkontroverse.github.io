@@ -1,5 +1,7 @@
 # Debattierclub der Uni Konstanz
 
+\[de\] [\[en\]](en)
+
 ## Facebook
 
 Diese Seite ist im Aufbau. Besuche uns doch auf unserer [Facebook-Seite](https://www.facebook.com/KonstanzerKontroverse/). 
@@ -22,7 +24,7 @@ Im Sommersemester 2019 treffen wir uns zum ersten Mal am 17. April um 18:45 bei 
 
 * Verband der Debattierclubs an Hochschulen [VDCH](http://www.vdch.de/)
 
-* Debattier-Magazin [Achte Minute](achteminute.de)
+* Debattier-Magazin [Achte Minute](https://achteminute.de)
 
 * [Regelwerke](https://www.streitkultur.net/debatte/#regeln)
 
