@@ -12,10 +12,10 @@ nav {
     text-align: right;
     padding-bottom: 2em;
 }
-header{
+header, footer {
     text-align: center;
 }
-header, main, nav {
+header, main, footer, nav {
     max-width: 400px;
     margin: 0px auto;
 }
@@ -23,7 +23,8 @@ a:link, a:visited, a:active {
     text-decoration: none;
     color: blue;
 }
-header a:link, header a:visited, header a:active {
+header a:link, header a:visited, header a:active, 
+footer a:link, footer a:visited, footer a:active {
     color: black;
 }
 #contact svg {
@@ -44,4 +45,7 @@ header a:link, header a:visited, header a:active {
 }
 #calendar {
     text-align: center;
+}
+div.fancybox-container {
+    z-index: 1000000000000;
 }
