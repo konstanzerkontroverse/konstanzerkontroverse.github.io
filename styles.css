@@ -12,10 +12,11 @@ header, main, nav {
     max-width: 400px;
     margin: 0px auto;
 }
-a {
+a:link, a:visited, a:active {
     text-decoration: none;
+    color: blue;
 }
-header a {
+header a:link, header a:visited, header a:active {
     color: black;
 }
 #contact svg {
