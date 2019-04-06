@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('nunito-regular-webfont.woff2') format('woff2'),
+         url('nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
-    font-family: 'Nunito';
+    font-family: 'nunitoregular';
 }
 nav {
     text-align: right;
