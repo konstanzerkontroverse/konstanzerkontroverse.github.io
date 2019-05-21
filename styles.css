@@ -28,7 +28,8 @@ footer a:link, footer a:visited, footer a:active {
     color: black;
 }
 #contact svg {
-    width: 50px;
+    width: 80px;
+    height: 40px;
 }
 .videoWrapper {
     position: relative;
