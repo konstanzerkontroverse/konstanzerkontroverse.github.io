@@ -1,193 +1,128 @@
-<!DOCTYPE html>
-<html lang="de">
+---
+layout: default
+title: Konstanzer Kontroverse
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Konstanzer Kontroverse</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
-</head>
-
-<body>
-    <nav>
-        [de] <a href="en">[en]</a>
-    </nav>
-    <header>
-        <img src="koko.png" alt="Koko">
-        <h2>
-            Debattierclub
-        </h2>
-        <h1>
-            Konstanzer Kontroverse
-        </h1>
-        <section id="contact">
-            <a href="https://facebook.com/KonstanzerKontroverse/">
-                <i data-feather="facebook">Facebook</i>
+<section class="videoWrapper">
+    <iframe src="https://www.youtube-nocookie.com/embed/euRf-4xjvLY" width="560" height="315" frameborder="0"
+        allow="
+                accelerometer; 
+                autoplay; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture" allowfullscreen>
+    </iframe>
+</section>
+<section id="dates">
+    <h3>
+        Termine
+    </h3>
+    <p>
+        Im Sommersemester 2019 treffen wir uns jeden Mittwoch
+        um 18:45 in Raum A702 an der Uni Konstanz.
+    </p>
+    <section id="calendar">
+        {% include calendar.html %}
+    </section>
+    <p>
+        Einsteiger*innen sind herzlich willkommen!
+    </p>
+</section>
+<section>
+    <h3>
+        Nützliches
+    </h3>
+    <ul>
+        <li>
+            <a href="http://www.achteminute.de/events/national/">Kalender</a>
+            mit den nationalen Turnieren
+        </li>
+        <li>
+            <a href="https://www.streitkultur.net/wp-content/uploads/2015/04/OPD-Jurorenmerkblatt-V101.pdf">Merkblatt
+                (PDF)</a>
+            und
+            <a href="https://www.streitkultur.net/wp-content/uploads/2018/10/OPD-Jurierbogen-V11.pdf">Jurierbogen
+                (PDF)</a> für OPD
+        </li>
+        <li>
+            <a href="https://www.streitkultur.net/debatte/#regeln">Regelwerke</a>
+        </li>
+        <li>
+            <a href="motions">Beispiel-Themen</a>
+        </li>
+        <li>
+            <a href="http://hellomotions.com/">Aktuelle Themen</a>
+            und
+            <a href="http://archive.idebate.org/view/top_100_debates">Top-Themen</a>
+        </li>
+        <li>
+            Die Timekeeper-App für
+            <a href="https://play.google.com/store/apps/details?id=net.czlee.debatekeeper">Android</a>
+            und
+            <a href="https://itunes.apple.com/us/app/timekept/id1156065589?mt=8">iOS</a>
+        </li>
+        <li>
+            Das Abstimmungstool
+            <a data-fancybox data-type="iframe"
+                data-src="https://www.ferendum.com/en/embeded.php?pregunta_ID=252745&sec_digit=69054&embeded_digit=6409"
+                href="javascript:;">
+                Ferendum</a>
+        </li>
+    </ul>
+</section>
+<section>
+    <h3>
+        Vernetzung
+    </h3>
+    <ul>
+        <li>
+            Die Konstanzer Kontroverse ist Mitglied im
+            Verband der Debattierclubs an Hochschulen
+            <a href="http://www.vdch.de/">VDCH</a>
+        </li>
+        <li>
+            <a href="http://achteminute.de">Achte Minute</a>,
+            das deutschsprachige Debattiermagazin
+        </li>
+        <li>
+            <a href="https://www.facebook.com/groups/848757215155908">Teampartnerbörse</a> auf Facebook
+        </li>
+        <li>
+            <a href="https://www.facebook.com/groups/2508355259237673">Ink Debates</a> auf Facebook
+        </li>
+        <li>
+            <a
+                href="https://docs.google.com/spreadsheets/d/15C-2cOyGG9XmY24AujwzCeT1n5g-cysTE67qXjpkMfk/">Liste</a>
+            weiterer Facebook-Seiten und Gruppen
+        </li>
+        <li>
+            <a
+                href="https://www.zeit.de/zeit-magazin/2017/02/universitaeten-debattierclubs-debatten-deutschlandkarte">Karte</a>
+            der Debattierclubs in Deutschland
+        </li>
+    </ul>
+</section>
+<section>
+    <h3>
+        Sonstiges
+    </h3>
+    <ul>
+        <li>
+            <a href="https://www.jugend-debattiert.de/">Jugend Debattiert</a>
+        </li>
+        <li>
+            English Debating an Schulen
+            <a href="http://schoolsdebate.de/">
+                <nobr>in Deutschland</nobr>
             </a>
-            <a href="https://twitter.com/konstanzdebate">
-                <i data-feather="twitter">Twitter</i>
-            </a>
-            <a href="https://www.instagram.com/konstanzdebate/">
-                <i data-feather="instagram">Instagram</i>
-            </a>
-            <a href="mailto:mail@koko.team">
-                <i data-feather="mail">Mail</i>
-            </a>
-        </section>
-    </header>
-    <main>
-        <section class="videoWrapper">
-            <iframe src="https://www.youtube-nocookie.com/embed/euRf-4xjvLY" width="560" height="315" frameborder="0"
-                allow="
-                        accelerometer; 
-                        autoplay; 
-                        encrypted-media; 
-                        gyroscope; 
-                        picture-in-picture" allowfullscreen>
-            </iframe>
-        </section>
-        <section id="dates">
-            <h3>
-                Termine
-            </h3>
-            <p>
-                Im Sommersemester 2019 treffen wir uns jeden Mittwoch
-                um 18:45 in Raum A702 an der Uni Konstanz.
-            </p>
-            <section id="calendar">
-                <div title="Merken" class="addeventatc">
-                    Termin speichern!
-                    <span class="start">07/10/2019 06:45 PM</span>
-                    <span class="end">07/10/2019 08:45 PM</span>
-                    <span class="timezone">Europe/Berlin</span>
-                    <span class="title">Debattieren</span>
-                    <span class="description">Debatte der Konstanzer Kontroverse</span>
-                    <span class="location">A702, Uni Konstanz</span>
-                    <span class="alarm_reminder">600</span>
-                    <span class="recurring">FREQ=WEEKLY;INTERVAL=1;COUNT=3</span>
-                    <span class="calname">event_koko</span>
-                </div>
-            </section>
-            <p>
-                Einsteiger*innen sind herzlich willkommen!
-            </p>
-        </section>
-        <section>
-            <h3>
-                Nützliches
-            </h3>
-            <ul>
-                <li>
-                    <a href="http://www.achteminute.de/events/national/">Kalender</a>
-                    mit den nationalen Turnieren
-                </li>
-                <li>
-                    <a href="https://www.streitkultur.net/wp-content/uploads/2015/04/OPD-Jurorenmerkblatt-V101.pdf">Merkblatt
-                        (PDF)</a>
-                    und
-                    <a href="https://www.streitkultur.net/wp-content/uploads/2018/10/OPD-Jurierbogen-V11.pdf">Jurierbogen
-                        (PDF)</a> für OPD
-                </li>
-                <li>
-                    <a href="https://www.streitkultur.net/debatte/#regeln">Regelwerke</a>
-                </li>
-                <li>
-                    <a href="motions">Beispiel-Themen</a>
-                </li>
-                <li>
-                    <a href="http://hellomotions.com/">Aktuelle Themen</a>
-                    und
-                    <a href="http://archive.idebate.org/view/top_100_debates">Top-Themen</a>
-                </li>
-                <li>
-                    Die Timekeeper-App für
-                    <a href="https://play.google.com/store/apps/details?id=net.czlee.debatekeeper">Android</a>
-                    und
-                    <a href="https://itunes.apple.com/us/app/timekept/id1156065589?mt=8">iOS</a>
-                </li>
-                <li>
-                    Das Abstimmungstool
-                    <a data-fancybox data-type="iframe"
-                        data-src="https://www.ferendum.com/en/embeded.php?pregunta_ID=252745&sec_digit=69054&embeded_digit=6409"
-                        href="javascript:;">
-                        Ferendum</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>
-                Vernetzung
-            </h3>
-            <ul>
-                <li>
-                    Die Konstanzer Kontroverse ist Mitglied im
-                    Verband der Debattierclubs an Hochschulen
-                    <a href="http://www.vdch.de/">VDCH</a>
-                </li>
-                <li>
-                    <a href="http://achteminute.de">Achte Minute</a>,
-                    das deutschsprachige Debattiermagazin
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/groups/848757215155908">Teampartnerbörse</a> auf Facebook
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/groups/2508355259237673">Ink Debates</a> auf Facebook
-                </li>
-                <li>
-                    <a
-                        href="https://docs.google.com/spreadsheets/d/15C-2cOyGG9XmY24AujwzCeT1n5g-cysTE67qXjpkMfk/">Liste</a>
-                    weiterer Facebook-Seiten und Gruppen
-                </li>
-                <li>
-                    <a
-                        href="https://www.zeit.de/zeit-magazin/2017/02/universitaeten-debattierclubs-debatten-deutschlandkarte">Karte</a>
-                    der Debattierclubs in Deutschland
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>
-                Sonstiges
-            </h3>
-            <ul>
-                <li>
-                    <a href="https://www.jugend-debattiert.de/">Jugend Debattiert</a>
-                </li>
-                <li>
-                    English Debating an Schulen
-                    <a href="http://schoolsdebate.de/">
-                        <nobr>in Deutschland</nobr>
-                    </a>
-                    und
-                    <a href="https://schoolsdebate.com">weltweit</a>
-                </li>
-                <li>
-                    <a href="https://debate-consult.de/">DebateConsult</a>
-                </li>
-                <li>
-                    <a href="https://www.zeit.de/serie/deutschland-spricht">Deutschland Spricht</a>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <a href="https://github.com/konstanzerkontroverse/koko.team">
-            <i data-feather="github">Github</i>
-        </a>
-    </footer>
-    <script>
-        feather.replace()
-    </script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="//code.tidio.co/dqydwqmhczswgcdmhdafii1ke0mu7yer.js"></script>
-    <script>
-        document.tidioChatLang = document.querySelector("html").getAttribute("lang");
-    </script>
-</body>
-
-</html>
+            und
+            <a href="https://schoolsdebate.com">weltweit</a>
+        </li>
+        <li>
+            <a href="https://debate-consult.de/">DebateConsult</a>
+        </li>
+        <li>
+            <a href="https://www.zeit.de/serie/deutschland-spricht">Deutschland Spricht</a>
+        </li>
+    </ul>
+</section>

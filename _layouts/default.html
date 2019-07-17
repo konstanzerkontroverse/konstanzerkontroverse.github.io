@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{% if page.url == "/" %}de{% else %}en{% endif %}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> {{ page.title }} </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+</head>
+
+<body>
+    <nav>
+        {% if page.url == "/en.html" %} <a href="/"> {% endif %}
+        [de] 
+        {% if page.url == "/en.html" %} </a> {% endif %}
+        {% if page.url == "/" %} <a href="en"> {% endif %}
+        [en]
+        {% if page.url == "/" %} </a> {% endif %}
+    </nav>
+    <header>
+        <img src="koko.png" alt="Koko">
+        <h2>
+            Debattierclub
+        </h2>
+        <h1>
+            Konstanzer Kontroverse
+        </h1>
+        <section id="contact">
+            <a href="https://facebook.com/KonstanzerKontroverse/">
+                <i data-feather="facebook">Facebook</i>
+            </a>
+            <a href="https://twitter.com/konstanzdebate">
+                <i data-feather="twitter">Twitter</i>
+            </a>
+            <a href="https://www.instagram.com/konstanzdebate/">
+                <i data-feather="instagram">Instagram</i>
+            </a>
+            <a href="mailto:mail@koko.team">
+                <i data-feather="mail">Mail</i>
+            </a>
+        </section>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <a href="https://github.com/konstanzerkontroverse/koko.team">
+            <i data-feather="github">Github</i>
+        </a>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
