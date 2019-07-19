@@ -55,6 +55,7 @@ header a:link, header a:visited, header a:active, footer a:link, footer a:visite
 
 p, .sponsoring li {
     text-align: justify;
+    word-wrap: break-word;
 }
 
 #calendar {
