@@ -53,7 +53,7 @@ header a:link, header a:visited, header a:active, footer a:link, footer a:visite
     height: 100%;
 }
 
-p {
+p, .sponsoring li {
     text-align: justify;
 }
 
@@ -65,14 +65,14 @@ div.fancybox-container {
     z-index: 1000000000000;
 }
 
-div#sponsoring {
+div.sponsoring {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-div#sponsoring img {
+div.sponsoring img {
     margin: 5px;
     width: auto;
     height: auto;
