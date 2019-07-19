@@ -53,9 +53,13 @@ header a:link, header a:visited, header a:active, footer a:link, footer a:visite
     height: 100%;
 }
 
-p, .sponsoring li {
+p, li {
     text-align: justify;
     word-wrap: break-word;
+}
+
+ul {
+    padding-left: 1em;
 }
 
 #calendar {
