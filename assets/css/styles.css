@@ -14,7 +14,7 @@ nav {
     padding-bottom: 2em;
 }
 
-header, footer {
+header, footer, h1, h2, h3 {
     text-align: center;
 }
 
